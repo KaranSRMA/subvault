@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from app.menus.subsMenu import subsMenu
 from app.core.helpers.UI import UI
 
