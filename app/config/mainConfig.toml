@@ -1,0 +1,14 @@
+[network]
+timeout = 15
+follow_redirects = true
+http2 = true
+max_threads = 20
+delay = 1.5
+context_default_timeout = 30_000
+context_default_navigation_timeout = 60_000
+
+[headers]
+User-Agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+Accept = "*/*"
+Accept-Language = "en-US,en;q=0.9"
+

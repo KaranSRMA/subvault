@@ -1,0 +1,69 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+
+*.so
+*.pyd
+*.dll
+
+# Virtual Environment
+
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+
+.env
+.env.*
+
+# Python Packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / Coverage
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+
+*.log
+
+# SQLite Databases (temporary/dev)
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime Files
+
+*.pid
+*.lock
+
+# Local Configuration
+
+config.local.toml
